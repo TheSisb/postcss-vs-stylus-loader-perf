@@ -1,0 +1,30 @@
+{
+  "name": "postcss-loader-vs-stylus-loader-perf-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --profile --json > stats.json"
+  },
+  "author": "TheSisb",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.6.1",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "nib": "^1.1.2",
+    "postcss-color-function": "^2.0.1",
+    "postcss-hexrgba": "^0.2.1",
+    "postcss-import": "^9.0.0",
+    "postcss-loader": "^1.2.1",
+    "postcss-nested": "^1.0.0",
+    "postcss-position": "^0.5.0",
+    "postcss-pxtorem": "^3.3.1",
+    "postcss-short-size": "^2.0.1",
+    "postcss-simple-vars": "^3.0.0",
+    "postcss-url": "^5.1.2",
+    "style-loader": "^0.13.1",
+    "stylus-loader": "^2.4.0",
+    "webpack": "^1.14.0"
+  }
+}
